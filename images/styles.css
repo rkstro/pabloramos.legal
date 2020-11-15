@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(black,black), url(images/background_color.webp);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: saturation;
+    font-family: 'Roboto Slab', serif;
+}
+#contact-card {
+    margin: 6rem 0 0 3rem;
+    max-width: 40rem;
+    background: #ffffff94;
+    backdrop-filter: blur(8px);
+    border-radius: 9px;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+#contact-card h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 1px 1px #FFFFFF;
+}
+#contact-card h2 {
+    margin: -8px 0 0 0;
+    font-size: 1.6rem;
+    color: #1b1b1b;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+#contact-card .bio {
+    margin: 2rem 0;
+}
+#contact-card a {
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width: 425px) {
+    #contact-card {
+        margin: 5rem 1rem;
+        max-width: 100%;
+        padding: 1.3rem;
+    }
+    #contact-card h1 {
+        font-size: 2.7rem;
+        line-height: 2.5rem;
+    }
+    #contact-card h2 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+}
